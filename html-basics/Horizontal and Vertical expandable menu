@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Açılır Kapanır Menü</title>
+</head>
+<body>
+
+    <!-- YATAY AÇILIR MENÜ -->
+    <nav>
+        <details open>
+            <summary>Menü</summary>
+            <ul>
+                <li><a href="#">Anasayfa</a></li>
+                <li><a href="#">Hakkımda</a></li>
+                <li>
+                    <details>
+                        <summary>Projeler</summary>
+                        <ul>
+                            <li><a href="#">HTML Projeleri</a></li>
+                            <li><a href="#">CSS Projeleri</a></li>
+                            <li><a href="#">JavaScript Projeleri</a></li>
+                        </ul>
+                    </details>
+                </li>
+                <li><a href="#">İletişim</a></li>
+            </ul>
+        </details>
+    </nav>
+
+    <hr>
+
+    <table width="100%">
+        <tr>
+            <!-- DİKEY AÇILIR MENÜ -->
+            <td width="25%" valign="top">
+                <nav>
+                    <details open>
+                        <summary>Hesap Menüsü</summary>
+                        <ul>
+                            <li><a href="#">Profil</a></li>
+
+                            <li>
+                                <details>
+                                    <summary>Ayarlar</summary>
+                                    <ul>
+                                        <li><a href="#">Hesap Ayarları</a></li>
+                                        <li><a href="#">Gizlilik</a></li>
+                                        <li><a href="#">Bildirimler</a></li>
+                                    </ul>
+                                </details>
+                            </li>
+
+                            <li><a href="#">Favoriler</a></li>
+                            <li><a href="#">Çıkış</a></li>
+                        </ul>
+                    </details>
+                </nav>
+            </td>
+
+            <!-- İÇERİK -->
+            <td width="75%" valign="top">
+                
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
