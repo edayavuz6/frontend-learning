@@ -1,0 +1,36 @@
+/*CSS learning - day 1*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.container {
+  width: 300px;
+  padding: 20px;
+  background-color: lightgray;
+}
+
+
+.title {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.text {
+  color: #555;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+
+.button {
+  padding: 10px 16px;
+  background-color: #6a5acd;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+}
